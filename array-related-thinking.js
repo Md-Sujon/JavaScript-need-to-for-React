@@ -25,10 +25,14 @@ products.forEach((product) =>console.log(product.name))
 const lowRate = products.filter((product) =>product.price > 100 );
 console.log(lowRate);
 
-// filter use remove item
+//filter use remove item
 
 const removeItem = products.filter((product) =>product.id != 4);
 console.log(removeItem);
+
+// find
+const search = products.find((product) =>product.name === 'tab') ;
+console.log(search);
 
 
 
