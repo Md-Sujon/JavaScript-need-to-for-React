@@ -1,5 +1,5 @@
 const money = 90;
-const active = false;
+const active = true;
 const myMoney = 150;
 
 if (money > 100) {
@@ -27,3 +27,22 @@ console.log(status1);
 
 const moneyCheck = myMoney > 100 ? 'Kacci' : 'Cha Busskut';
 console.log(moneyCheck);
+
+
+const x = active && 5;
+const y = active || 5;
+// console.log(y);
+
+// String to Convert number only use + ; 
+const Number = +'45';
+console.log(Number);
+
+// Number to convert String
+const StNumber = 45 + '';
+console.log(StNumber);
+
+// Default parameter 
+function sujon(num1, num2 = 5){
+   console.log(num1 + num2);
+}
+sujon(20)
